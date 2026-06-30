@@ -5,12 +5,12 @@ import java.sql.DriverManager;
 
 public class DBConnection {
 
-    private static final String URL =
-            "jdbc:mysql://localhost:3306/auramind";
+   private static final String URL =
+        "jdbc:mysql://reseau.proxy.rlwy.net:36727/auramind?useSSL=true&allowPublicKeyRetrieval=true&serverTimezone=UTC";
 
-    private static final String USER = "root";
+private static final String USER = "root";
 
-    private static final String PASSWORD = "root";
+private static final String PASSWORD = "QhqjyCMIVsMhPiITfQYBHOHbVZnpvale";
 
     public static Connection getConnection() {
 
